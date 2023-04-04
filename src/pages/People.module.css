@@ -1,0 +1,569 @@
+.filterByName {
+  position: relative;
+  line-height: 21px;
+}
+.typePersonsName {
+  position: absolute;
+  top: 11px;
+  left: 11px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  width: 206.2px;
+  height: 19px;
+}
+.inputpeopleNameFilter {
+  position: relative;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-white);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08) inset;
+  border: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+  width: 228px;
+  height: 42px;
+  flex-shrink: 0;
+}
+.divpeopleSearchContainer,
+.divpeopleSearchNameSidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.divpeopleSearchContainer {
+  padding: 31px var(--padding-xs) 1.390625px 0;
+  margin-top: -20px;
+  font-size: var(--font-size-sm);
+  color: #555;
+}
+.divpeopleSearchNameSidebar {
+  background-color: var(--color-whitesmoke-200);
+  height: 1063px;
+  padding: 29px var(--padding-11xl) 2765.9375px;
+  box-sizing: border-box;
+}
+.frameIcon {
+  position: absolute;
+  top: 28.8px;
+  left: 0;
+  width: 20.58px;
+  height: 14px;
+  overflow: hidden;
+}
+.peopleFound {
+  position: absolute;
+  top: 23.95px;
+  left: 38px;
+  line-height: 20.4px;
+}
+.frameIcon1 {
+  position: absolute;
+  top: 14.3px;
+  left: 15px;
+  width: 11px;
+  height: 14px;
+  overflow: hidden;
+}
+.addPerson {
+  position: absolute;
+  top: 10px;
+  left: 39px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 75.89px;
+  height: 19px;
+  text-shadow: 0-1px 0 rgba(0, 0, 0, 0.25);
+}
+.abtn,
+.buttonbtnIcon {
+  position: absolute;
+  top: calc(50% - 22.67px);
+  height: 40px;
+}
+.abtn {
+  left: 834.31px;
+  border-radius: var(--br-9xs) 0 0 var(--br-9xs);
+  background-color: var(--color-lightgreen-200);
+  width: 116.69px;
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+}
+.buttonbtnIcon {
+  left: 950px;
+  border-radius: 0 var(--br-9xs) var(--br-9xs) 0;
+  width: 39px;
+}
+.divclearfix,
+.hrh2d3b7d43a9 {
+  position: absolute;
+  left: 30px;
+  width: 989px;
+}
+.divclearfix {
+  top: 30px;
+  height: 45.34px;
+  font-size: var(--font-size-base-6);
+  color: var(--color-darkgray-100);
+}
+.hrh2d3b7d43a9 {
+  top: 2773.94px;
+  height: 2px;
+  overflow: hidden;
+}
+.divallPeopleContainerChild {
+  position: absolute;
+  top: 92.9px;
+  left: 55.49px;
+  border-radius: var(--br-19xl);
+  background-color: var(--color-whitesmoke-400);
+  width: 263.9px;
+  height: 331.44px;
+}
+.b743818d7771jpgIcon {
+  position: absolute;
+  top: calc(50% - 403.45px);
+  left: 106.44px;
+  border-radius: var(--br-8xs);
+  width: 162px;
+  height: 132px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.austenKate,
+.austenkategmailcom,
+.div {
+  position: absolute;
+  top: 274.75px;
+  left: 141.94px;
+  line-height: 20px;
+  font-weight: 500;
+}
+.austenkategmailcom,
+.div {
+  top: 312.75px;
+  left: 122.94px;
+}
+.austenkategmailcom {
+  top: 294.75px;
+  left: 100.96px;
+}
+.divallPeopleContainerItem {
+  position: absolute;
+  top: 373.83px;
+  left: 196.31px;
+  border-radius: var(--br-16xl);
+  background: linear-gradient(
+    180deg,
+    rgba(141, 239, 151, 0.66),
+    rgba(255, 189, 89, 0.66)
+  );
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 108.14px;
+  height: 34.71px;
+}
+.profile {
+  position: absolute;
+  top: 381px;
+  left: 230px;
+  line-height: 20px;
+  font-weight: 500;
+  color: var(--color-black);
+  cursor: pointer;
+}
+.divallPeopleContainerInner {
+  position: absolute;
+  top: 373.83px;
+  left: 69.31px;
+  border-radius: var(--br-16xl);
+  background: linear-gradient(
+    180deg,
+    rgba(141, 239, 151, 0.66),
+    rgba(255, 189, 89, 0.66)
+  );
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 108.14px;
+  height: 34.71px;
+}
+.message {
+  position: absolute;
+  top: 381px;
+  left: 93px;
+  line-height: 20px;
+  font-weight: 500;
+  color: var(--color-black);
+}
+.rectangleDiv {
+  position: absolute;
+  top: 92.9px;
+  left: 392.55px;
+  border-radius: var(--br-19xl);
+  background-color: var(--color-whitesmoke-400);
+  width: 263.9px;
+  height: 331.44px;
+}
+.b743818d7771jpgIcon1 {
+  position: absolute;
+  top: calc(50% - 398.5px);
+  left: 443.5px;
+  border-radius: var(--br-8xs);
+  width: 162px;
+  height: 132px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.austenKate1,
+.austenkategmailcom1,
+.div1 {
+  position: absolute;
+  top: 274.75px;
+  left: 479px;
+  line-height: 20px;
+  font-weight: 500;
+}
+.austenkategmailcom1,
+.div1 {
+  top: 312.75px;
+  left: 460px;
+}
+.austenkategmailcom1 {
+  top: 294.75px;
+  left: 438.02px;
+}
+.divallPeopleContainerChild1 {
+  position: absolute;
+  top: 373.83px;
+  left: 533.36px;
+  border-radius: var(--br-16xl);
+  background: linear-gradient(
+    180deg,
+    rgba(141, 239, 151, 0.66),
+    rgba(255, 189, 89, 0.66)
+  );
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 108.14px;
+  height: 34.71px;
+}
+.profile1 {
+  position: absolute;
+  top: 381px;
+  left: 567.06px;
+  line-height: 20px;
+  font-weight: 500;
+  color: var(--color-black);
+}
+.divallPeopleContainerChild2 {
+  position: absolute;
+  top: 373.83px;
+  left: 406.36px;
+  border-radius: var(--br-16xl);
+  background: linear-gradient(
+    180deg,
+    rgba(141, 239, 151, 0.66),
+    rgba(255, 189, 89, 0.66)
+  );
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 108.14px;
+  height: 34.71px;
+}
+.message1 {
+  position: absolute;
+  top: 381px;
+  left: 430.06px;
+  line-height: 20px;
+  font-weight: 500;
+  color: var(--color-black);
+}
+.divallPeopleContainerChild3 {
+  position: absolute;
+  top: 92.9px;
+  left: 736.1px;
+  border-radius: var(--br-19xl);
+  background-color: var(--color-whitesmoke-400);
+  width: 263.9px;
+  height: 331.44px;
+}
+.b743818d7771jpgIcon2 {
+  position: absolute;
+  top: calc(50% - 398.5px);
+  left: 787.05px;
+  border-radius: var(--br-8xs);
+  width: 162px;
+  height: 132px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.austenKate2,
+.austenkategmailcom2,
+.div2 {
+  position: absolute;
+  top: 274.75px;
+  left: 822.55px;
+  line-height: 20px;
+  font-weight: 500;
+}
+.austenkategmailcom2,
+.div2 {
+  top: 312.75px;
+  left: 803.55px;
+}
+.austenkategmailcom2 {
+  top: 294.75px;
+  left: 781.57px;
+}
+.divallPeopleContainerChild4 {
+  position: absolute;
+  top: 373.83px;
+  left: 876.92px;
+  border-radius: var(--br-16xl);
+  background: linear-gradient(
+    180deg,
+    rgba(141, 239, 151, 0.66),
+    rgba(255, 189, 89, 0.66)
+  );
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 108.14px;
+  height: 34.71px;
+}
+.profile2 {
+  position: absolute;
+  top: 381px;
+  left: 910.61px;
+  line-height: 20px;
+  font-weight: 500;
+  color: var(--color-black);
+}
+.divallPeopleContainerChild5 {
+  position: absolute;
+  top: 373.83px;
+  left: 749.92px;
+  border-radius: var(--br-16xl);
+  background: linear-gradient(
+    180deg,
+    rgba(141, 239, 151, 0.66),
+    rgba(255, 189, 89, 0.66)
+  );
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 108.14px;
+  height: 34.71px;
+}
+.message2 {
+  position: absolute;
+  top: 381px;
+  left: 773.61px;
+  line-height: 20px;
+  font-weight: 500;
+  color: var(--color-black);
+}
+.divallPeopleContainer {
+  flex: 1;
+  position: relative;
+  background-color: var(--color-white);
+  height: 1063px;
+  font-size: var(--font-size-base);
+  color: var(--color-steelblue-200);
+}
+.divrowFluid {
+  position: absolute;
+  width: 100%;
+  top: 53px;
+  right: -1px;
+  left: 1px;
+  height: 1063px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.divwrapper {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-white);
+  width: 1349px;
+}
+.divmodalFooter,
+.divsmsPerson {
+  top: 0;
+  left: 0;
+  background-color: var(--color-gray-600);
+  width: 1px;
+  height: 1px;
+}
+.divmodalFooter {
+  position: absolute;
+  border-radius: 0 0 var(--br-7xs) var(--br-7xs);
+  box-shadow: 0 1px 0#fff inset;
+  border-top: 1px solid var(--color-whitesmoke-300);
+  box-sizing: border-box;
+}
+.divsmsPerson {
+  border-radius: var(--br-6xs);
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+  opacity: 0;
+}
+.atertiary,
+.divsmsPerson,
+.svg {
+  position: absolute;
+}
+.svg {
+  top: calc(50% - 21px);
+  left: 30px;
+  overflow: hidden;
+}
+.atertiary {
+  top: calc(50% - 18px);
+  left: 264.66px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-dimgray-400);
+}
+.events,
+.people1,
+.tags {
+  top: 11px;
+  line-height: 18px;
+  font-weight: 500;
+}
+.people1 {
+  position: absolute;
+  left: 290.42px;
+  color: var(--color-goldenrod);
+}
+.events,
+.tags {
+  cursor: pointer;
+}
+.tags {
+  position: absolute;
+  left: 379.92px;
+}
+.events {
+  left: 454.31px;
+}
+.events,
+.more,
+.svgIcon {
+  position: absolute;
+}
+.more {
+  top: 9px;
+  left: 12px;
+  line-height: 18px;
+  font-weight: 500;
+}
+.svgIcon {
+  top: calc(50% - 1.73px);
+  left: 59.19px;
+  width: 12px;
+  height: 7px;
+  overflow: hidden;
+}
+.anavigationMoreDropdownTo {
+  position: absolute;
+  top: calc(50% - 18px);
+  left: 530.03px;
+  width: 83.19px;
+  height: 36px;
+}
+.logopngIcon {
+  position: absolute;
+  height: calc(100% - 8px);
+  top: 2px;
+  bottom: 6px;
+  left: 30px;
+  max-height: 100%;
+  width: 32px;
+  object-fit: cover;
+}
+.talawa {
+  position: absolute;
+  top: 3.8px;
+  left: 70px;
+  line-height: 26.4px;
+  font-family: var(--font-inter);
+  color: var(--color-gray-400);
+}
+.dashboard {
+  position: absolute;
+  top: 10.47px;
+  left: 174.21px;
+  line-height: 18px;
+  font-weight: 500;
+  color: var(--color-darkslategray-100);
+  cursor: pointer;
+}
+.ulnavigationWrapper {
+  position: relative;
+  width: 621.23px;
+  height: 40px;
+  flex-shrink: 0;
+}
+.divnavSearchInputGroup {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-lg);
+  background-color: var(--color-mediumseagreen-100);
+  width: 36px;
+  height: 36px;
+}
+.svgh2dF44e3a62Icon {
+  position: absolute;
+  top: calc(50% - 12px);
+  left: 6px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.anavMiniDropdownIcon,
+.divnavSearchWrapper {
+  position: relative;
+  width: 36px;
+  height: 36px;
+  flex-shrink: 0;
+}
+.anavMiniDropdownIcon {
+  border-radius: var(--br-lg);
+}
+.divnavigationWrapperRight {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-11xl) 0 609.78125px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.divnavigationBar,
+.people {
+  background-color: var(--color-white);
+}
+.divnavigationBar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.03);
+  width: 1366px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-lg) 0;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: var(--font-size-base);
+  color: var(--color-slategray);
+}
+.people {
+  position: relative;
+  width: 100%;
+  height: 1115px;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-darkslategray-200);
+  font-family: var(--font-roboto);
+}
